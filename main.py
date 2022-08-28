@@ -1,5 +1,2 @@
-print('ok')
-print('ok')
-print('ok')
-print('ok')
-print('ok')
+print('Hello World!')
+
