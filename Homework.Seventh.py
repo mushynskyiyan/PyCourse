@@ -1,8 +1,10 @@
-lst1 = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
-a = len(lst1)
-b = 0
+lst2 = [1, 0, 3, 0, 0, 0, 5]
+lst3 = []
+lst4 = []
+a = len(lst2)
 for i in range(a):
-    if lst1[i] != 0:
-        lst1[b], lst1[i] = lst1[i], lst1[b]
-        b +=1
-print(lst1)
+    if lst2[i] != 0:
+        lst3.append(lst2[i])
+    elif lst2[i] == 0:
+        lst4.append(lst2[i])
+print(lst3 + lst4)
