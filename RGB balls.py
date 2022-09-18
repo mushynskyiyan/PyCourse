@@ -7,9 +7,9 @@ The probability of selecting one marble of each color as a percentage (rounded d
 
 import math
 
-r = int(input("Red balls: "))
-b = int(input("Blue balls: "))
-g = int(input("Green balls: "))
+r = int(input("Red marbles: "))
+b = int(input("Blue marbles: "))
+g = int(input("Green marbles: "))
 probr = r/(r+b+g)
 probb = b/((r-1)+b+g)
 probg = g/((r-1)+(b-1)+g)
