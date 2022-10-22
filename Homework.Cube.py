@@ -20,7 +20,7 @@ class Rectangle:
         return Rectangle(self.get_square() * n, 1)
 
     def __str__(self):
-        return f'Rectangle [width = {self.width}, height = {self.height}'
+        return f'Rectangle width = {self.width}, height = {self.height}'
 
 
 r1 = Rectangle(2, 4)
